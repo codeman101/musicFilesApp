@@ -14,17 +14,3 @@ I did it for the sake of Windows protability and didn't want him to have to inst
 
 I chose C++ over C# because I didn't want to have to deal compatitability between versions of .NET frameworks
 
-
-+-------------------+          +------------------+
-|                   |          |                  |
-|   main            |          |   searcher       |
-|                   +----------+                  |
-|                   |          ^                  |
-|                   |          |                  |
-|                   |          |                  |
-+-------^-----------+          +------+-----------+
-        |                             |
-        |                             |
-        |                             |
-        |                             |
-        +-----------------------------+
