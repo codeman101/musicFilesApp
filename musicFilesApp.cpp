@@ -3,8 +3,29 @@
 #include <fstream>
 #include <cstdlib>
 #include <cctype>
-//using namespace System;
-//using namespace System::Collections::ObjectModel;
+//--------------------------------------------------------------------------------------------------
+// Name:
+// searcher
+// 
+// Arguments:
+// data = a string consisting of the data from the xml file
+// pname = name of the playlist the user wants to have copied to a single directory
+//
+// 
+//
+// About: parses each file path in the playlist and copies each file to a folder on the user's desktop
+// 
+//
+//Name: main
+//
+//About: gets name from user in order to go to their desktop directory and get to their iTunes XML file 
+//and asks for the name of the playlist to copy to folder on desktop
+//
+//
+//
+//
+// 
+//--------------------------------------------------------------------------------------------------
 
 
 void searcher(std::string data, std::string pname, std::string dek)
